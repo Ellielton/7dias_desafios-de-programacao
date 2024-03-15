@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <script>
+      // let area = prompt('Você deseja seguir na area FRONT ou BACK?');
+      // console.log(area)
+
+      // if(area == "front") {
+
+      //   let frame = prompt('Seguindo no FRONT_END você deseja aprender React ou Vue?');
+
+      // } else if(area == "back") {
+
+      //   let linguagem = prompt('Seguindo no BACK_END você deseja aprender C# ou Java?');
+
+      // }
+
+      //let carreira = prompt(`Você escolheu seguir na área de ${area}. Deseja continuar ou se desenvolver na área Fullsteck?`);
+
+      let controle;
+      let listaDeTecnologias = [];
+      
+      while(controle != "n") {
+        
+        let areaDeInteresse = prompt('Quais são as tecnologias que deseja conhecer ou se especializar?');
+        listaDeTecnologias.push(areaDeInteresse);
+        console.log(listaDeTecnologias);
+
+        controle = prompt('Tem mais alguma tecnologia que você gostaria de aprender responda com "S" pra sim ou "N" para não');
+
+      }
+      alert(`Essa é a lista das tecnologias de seu interesse ${listaDeTecnologias}`)
+        </script>
+  </body>
+</html>
